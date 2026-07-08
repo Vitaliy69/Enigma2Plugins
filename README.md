@@ -14,9 +14,7 @@ standard **IPK** packages installable via `opkg`.
 
 ### ChannelStats (v0.1)
 
-Gathers TV-watching statistics and periodically reports the currently watched
-service to an HTTP server, using the receiver's `eth0` MAC address as the
-identifier.
+A multi-threaded daemon engineered for distributed telemetry ingestion and asynchronous event-driven monitoring across distributed Linux OS smart receiver nodes. It extracts system-level transponder streams and EPG indices via low-level framework hooks, dispatching structural operational metrics over network-isolated channels with integrated failover and automated remote script execution routines.
 
 **How it works**
 
